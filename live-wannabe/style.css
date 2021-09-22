@@ -87,14 +87,29 @@ img {
     }
     h1{
       display: flex;
-      justify-content: start;
+      justify-content: center;
 
     }
     h3{
       display: flex;
       justify-content: center;
     }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    width: 100%;
+    
+}
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+
+      
+      width: 100%;
+    }
+    
+   
     img{
+      justify-content: center;
       flex-wrap: wrap;
       height: 100;
     }
