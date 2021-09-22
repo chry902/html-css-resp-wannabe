@@ -111,7 +111,45 @@ img {
     img{
       justify-content: center;
       flex-wrap: wrap;
-      height: 100;
+      
     }
   
 }
+@media screen and (max-width: 768px){
+  body{
+    
+    
+  }
+    .row{
+      width: 100%;
+      
+      display: flex;
+      flex-shrink: 1;
+      flex-direction: column;
+    }
+    h1{
+      display: flex;
+      justify-content: center;
+
+    }
+    h3{
+      display: flex;
+      justify-content: center;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    width: 100%;
+    
+}
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+
+      
+      width: 100%;
+    }
+    
+    .img{
+      display: inline-flex;
+      flex-direction: row;
+    }
