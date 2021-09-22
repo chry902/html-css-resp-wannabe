@@ -80,7 +80,7 @@ img {
     
   }
     .row{
-      
+      width: 100%;
       display: flex;
       flex-shrink: 1;
       flex-direction: column;
@@ -93,6 +93,10 @@ img {
     h3{
       display: flex;
       justify-content: center;
+    }
+    img{
+      flex-wrap: wrap;
+      height: 100;
     }
   
 }
