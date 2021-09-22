@@ -1,16 +1,4 @@
-@media screen and (max-width: 420px){
-  body{
-    
-    
-  }
-    .row {
-      
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-  
-}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -83,4 +71,28 @@ img {
 
 .clear {
   clear: both;
+}
+
+
+@media screen and (max-width: 420px){
+  body{
+    
+    
+  }
+    .row{
+      
+      display: flex;
+      flex-shrink: 1;
+      flex-direction: column;
+    }
+    h1{
+      display: flex;
+      justify-content: start;
+
+    }
+    h3{
+      display: flex;
+      justify-content: center;
+    }
+  
 }
